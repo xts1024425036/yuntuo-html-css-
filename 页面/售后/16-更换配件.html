@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<script src=""></script>	
+	<style type="text/css">
+		.item-info{
+			line-height: 1.3em;padding: 0.1rem 0;
+		}
+		.main{
+			width: 100%;
+			margin-top: 1.8rem;
+		}
+		.main-list{
+			background: #ffffff;
+			margin-top: 0.2rem;
+			padding: 0.3rem 0;
+		}
+		.bg-shadow{
+			margin: auto;
+		}
+		.info-bg{
+			background: #DDE8FF;
+			color: #5478C4;
+			font-size: 0.24rem;
+			font-weight: bold;
+			padding: 0 0.3rem;
+			border-radius: 0.16rem 0.16rem 0 0;
+		}
+		.user-time{
+			
+			line-height: 0.7rem;
+		}
+		.info-bg .address{
+			line-height: 1.4em;
+			padding-bottom: .8em;
+		}
+		.icon-shijian{
+			font-size: 0.36rem;
+			margin-right: 0.2rem;
+		}
+		.list-all{
+			padding: 0.3rem;
+		}
+		.list-text{
+			line-height: 1.8em;
+			font-size: 0.24rem;
+			color:#666666;
+
+		}
+		
+		.list-text .name{
+			font-size: 0.28rem;
+			color:#333333;
+			font-weight: 500;
+		}
+		.list-text .color{
+			font-size: 0.24rem;
+			color:#333333;
+			margin-left: 0.6rem;
+		}
+		.list-text .name .fr{
+			font-size: 0.28rem;
+			color:#999999;
+		}
+		.list-text .separate{
+			margin: 0.2rem 0;
+		}
+		.list-text .namber .fr{
+			font-size: 0.24rem;
+			color:#5478C4;
+		}
+		.icon-bottom,.icon-zhankai{
+			font-size: 0.24rem;
+			color:#5478C4;
+			margin-left: .1rem;
+		}
+		.main-list .add{
+			height: 0.9rem;
+			line-height: 0.9rem;
+		}
+		.all-number{
+			margin: 0.1rem 0.3rem;
+			font-size: 0.28rem;
+			color: #333333;
+		}
+		.all-number span{
+			font-size: 0.36rem;
+			font-weight: bold;
+		}
+		.add-btn{
+			margin: 0.2rem 0.3rem 0.4rem 0;
+			height: 1em;
+		}
+		.add-btn .center{
+			width: 1.8rem;
+			height: 0.64rem;
+			border:1px solid #5478C4;
+			color: #5478c4;
+			border-radius:0.32rem;text-align: center;
+			line-height: 0.64rem;
+			display: inline-block;
+		}
+		
+		.table-info{
+			background-color: #F0F0F0;
+			box-shadow:none;
+			border-radius:0.1rem;
+			margin-top: 0.1rem;
+		}
+		.table-info textarea{
+			width: 100%;
+			background: transparent;
+			padding: .2rem;
+			color: #BBBBBB;
+			font-size: 0.24rem;
+		}
+	</style>
+</head>
+
+<body>
+	<ul class="nav-bar flex">
+		<li class="left txtl">
+		   <i class="iconfont icon-fanhui"></i>
+	    </li>
+        <li class="flex-item txtc">更换配件</li>
+        <li class="right txtr"></li>   
+    </ul>
+	<div class="filter-bar flex txtc">
+		<a href="#" class="flex-item select" pid="not-ok">未完成</a>
+		<a href="#" class="flex-item" pid="is-ok">已完成</a>
+		
+	</div>
+	
+	<div class="main">
+		<div class="main-list">
+			<div class="bg-shadow">
+				<div class="info-bg">
+					<div class="user-time flex">
+						<i class="iconfont icon-shijian"></i>
+						<span>2018-12-14 17:24:10</span>
+						<span class="flex-item txtr">王可可</span>
+					</div>
+					<div class="address">湖北省武汉市硚口区古田x路xxxxxx街道xxx路xxxx小区xxx路xxxx</div>
+				</div>
+				
+				<div class="list-all">
+					<ul class="list-text">
+						<li class="name">沙发_实木<span class="color">仿木色</span><span class="fr">x1</span></li>
+						<li class="type">规格：<span>360 0*1200</span></li>
+						<li class="namber clearfix">货号：<span>62-HUOXCS212-1</span><span class="fr">更换配件<i class="iconfont icon-zhankai"></i></span>
+							<div class="table-info">
+								<textarea rows="3" cols="40" placeholder="请输入需要更换的配件"></textarea>
+							</div>
+						</li>
+						
+						<li class="separate"></li>
+
+						<li class="name">沙发_实木<span class="color">仿木色</span><span class="fr">x1</span></li>
+						<li class="type">规格：<span>3600*1200</span></li>
+						<li class="namber clearfix">货号：<span>62-HUOXCS212-1</span><span class="fr">更换配件<i class="iconfont icon-bottom"></i></span></li>
+						<li class="separate"></li>
+
+						<li class="name">沙发_实木<span class="color">仿木色</span><span class="fr">x1</span></li>
+						<li class="type">规格：<span>3600*1200</span></li>
+						<li class="namber clearfix">货号：<span>62-HUOXCS212-1</span><span class="fr">更换配件<i class="iconfont icon-bottom"></i></span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="add txtr">
+				<div class="all-number txtc" style="display:inline-block;">总数：
+					<span style="color:#5478C4">6</span>&nbsp;件
+				</div>
+				<div class="all-number txtr" style="display:inline-block;">总送装费：
+					<span style="color:#DF2F2F">￥312</span>
+				</div>
+			</div>
+			<div class="add-btn txtr">
+				<div class="center">送装跟踪</div>
+			</div>
+		</div>
+		
+		
+	</div>
+		
+		
+	
+</body>
+</html>

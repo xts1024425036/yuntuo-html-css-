@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<script src=""></script>	
+  	<style type="text/css">
+		.header{
+			width: 100%;
+			
+		}
+		.nav{
+			width: 73%;
+			margin: auto;
+			line-height: 80px;
+			height:80px;
+		}
+		.nav .fl img{
+			
+			height: 46px;
+		}
+		.nav .fr{
+		
+			
+		}
+		.filter-bar{
+			padding: 0 1em;
+			width: 40%;
+			margin: 0 .2rem;
+		}
+		.filter-bar a{
+			font-size: 18px;
+			color:#333;
+		}
+		.filter-bar a.select{
+			border-bottom: 1px solid #37679F;
+			color:#37679F;
+		}
+		.download{
+			width:1em;
+			height: 44px;
+			background:#9F5237;
+			border-radius:22px;
+			font-size:16px;
+			color: #FFFFFF;
+			text-align: center;
+			margin-left: .4rem;
+		}
+		.head-banner{
+			width: 100%;
+			background:url(images/home_page/banner.png) no-repeat;
+			background-size:100% 100%;
+			
+		}
+		.head-banner-content{
+			height: 540px;
+			
+			position: relative;
+			
+		}
+		.head-bg-content .txtc li{
+			position: absolute;
+			bottom: .2rem;
+			width:.2rem;
+			height:.2rem;
+			background:#D6D6D6;
+			border-radius:50%;
+			margin: .1rem;
+			display: inline-block;
+			
+		}
+		.head-bg-content .txtc .current{
+			width:.2rem;
+			height:.2rem;
+			background: #fff;
+		}
+		.list{
+			width: 100%;
+		}
+		.main-list-1{
+			width: 73%;
+			margin: 6em auto;
+		}
+		.title{
+			width: 20%;
+			height: 90px;
+			background: transparent;
+			border-bottom: 1px solid #37679F;
+			line-height: 80px;
+			font-size: 36px;
+			color:#37679F;
+			letter-spacing: 10px;
+			margin:2em auto 1em auto;
+		}
+		h4{
+			font-size: 18px;
+			color:#333333;
+			margin: 1em 0;
+			line-height: 1.8em;
+		}
+		.explain{
+			margin-top: 4em;
+			width: 100%;
+			margin-bottom:4em;
+		}
+		.explain-list{
+			width:22%;
+			margin: 0.2rem 4% 0 0;
+			
+			background:#FFFFFF;
+			box-shadow:0px 8px 30px 0px rgba(223,234,240,0.7);
+			border-radius:0px 20px 0px 20px;
+			padding:.6rem 1.6em;
+			
+		}
+		.icon-bg{
+			width:70px;
+			height:70px;
+			background:#FFEEE6;
+			border-radius:50%;
+			line-height: 70px;
+			margin:auto;
+			
+		}
+		.explain .left{
+			font-size: 28px;
+			color: #9F5937;
+		}
+		
+		p{
+			font-size: 14px;
+			color:#666666;
+			line-height: 1.8em;
+			text-align: left;
+		}
+		.explain-list-2{
+			width:47%;
+			margin: 0.2rem 3% 1.6em 0;
+			height:130px;
+			background:#FFFFFF;
+			
+			border-radius:16px;
+			padding:0 .5rem;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+		.explain-list-2 .icon-bg{margin-right: 1.6em;}
+		
+		.pic-bg{
+			width: 100%;
+			background:url(images/home_page/pic1.png) no-repeat;
+			background-size:100% 100%;
+			height: 360px;
+			margin-top: 3em;
+		}
+		.square{
+			width:560px;
+			height: 100%;
+			background:#9F5937;
+			opacity:0.7;
+			border-width: 4em 0 0 8em;
+			border-style: solid;
+			border-color: #9F5937 transparent  transparent transparent;
+		}
+		.square p{color:#FFFFFF;opacity: 1;}
+	</style>
+</head>
+
+<body>
+
+<!--header-->
+<div class="header">
+	<div class="nav flex clearfix">
+		<div class="fl flex-item">
+			<img src="images/home_page/logo.png">
+		</div>
+		<div class="filter-bar fr flex txtc">
+			<a href="#" class="flex-item select" pid="this">首页</a>
+			<a href="#" class="flex-item" pid="other">招募合伙人</a>
+			<span class="flex-item download">下载APP</span>
+		</div>
+	</div>
+</div>
+<div class="head-banner">
+	<div class="head-banner-content">
+		<ul class="flex-item txtc">
+			<li class="current"></li>
+			<li></li>
+		</ul>
+	</div>
+</div>
+<!--uesr-->
+<div class="main">
+	<div class="list">
+		<div class="main-list-1 txtc">
+			<div class="title">经销商</div>
+			<h4>手机下单、全程监控、共享格子库、专业化运营、降低风险、提升效率</h4>
+			<div class="explain flex">
+				<div class="explain-list">
+					<div class="icon-bg"><i class="left iconfont icon-cangku"></i></div>
+					<h4>共享格子库</h4>
+					<p>极具竞争力的租赁价格，10平米为一格，按需租用。租期可 按周、月、年等多种方式。专业的库管人员管理，以及中国人保保驾护航</p>
+				</div>
+				<div class="explain-list">
+					<div class="icon-bg"><i class="left iconfont icon-huoche"></i></div>
+					<h4>标准配送</h4>
+					<p>经销商在APP下单后，平台安排车辆、司机来取货、送货，经销商可以在APP上全程跟踪</p>
+				</div>
+				<div class="explain-list">
+					<div class="icon-bg"><i class="left iconfont icon-cangku"></i></div>
+					<h4>安装服务</h4>
+					<p>统一着装、统一工具、统一服 务流程、统一安装规范、统一考核标准。所有安装师傅考核通过才能持证上岗。接受客户、经销商和平台</p>
+				</div>
+				<div class="explain-list">
+					<div class="icon-bg"><i class="left iconfont icon-huoche"></i></div>
+					<h4>运营管理</h4>
+					<p>云驼联盟通过APP、PC后台等手段，为经销商提供采购、销售、库存、配送、安装、维修、数据分析等专业的运营管理服务。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="list" style="background: #EFF4F7;padding: 0.1em 0">
+		<div class="main-list-1 txtl">
+			<div class="title" style="text-align: center;">云驼驿站</div>
+			<h4 style="text-align: center;">为入驻平台的家具经销商提供了专业的送装一体、仓储服务、干线物流、落地配送、订单跟踪、数据分析等专业化服务</h4>
+			<div class="explain flex" style="flex-wrap: wrap;">
+				<div class="explain-list-2 flex">
+					<div class="icon-bg txtc"><i class="left iconfont icon-cangku"></i></div>
+					<div class="flex-item">
+						<h4>仓储管理</h4>
+						<p>包括货品分拣、提货、入库、仓库调拨、盘点、出库、维修申请等</p>
+					</div>
+				</div>
+				<div class="explain-list-2 flex">
+					<div class="icon-bg txtc"><i class="left iconfont icon-dingdan"></i></div>
+					<div class="flex-item">
+						<h4>派单</h4>
+						<p>根据接到的订单内容，合理安排车辆和司机</p>
+					</div>
+				</div>
+				<div class="explain-list-2 flex">
+					<div class="icon-bg txtc"><i class="left iconfont icon-cangku"></i></div>
+					<div class="flex-item">
+						<h4>送装服务</h4>
+						<p>送装师傅可以通过APP接单，获取订单信息后，提供 仓库取货、装货、送货、安装等服务。不同阶段需要进行不同的APP操作</p>
+					</div>
+				</div>
+				<div class="explain-list-2 flex">
+					<div class="icon-bg txtc"><i class="left iconfont icon-dingdan"></i></div>
+					<div class="flex-item">
+						<h4>订单跟踪</h4>
+						<p>可跟踪订单进度、司机和车辆位置、异常情况的跟进和解决</p>
+					</div>
+				</div>
+				<div class="explain-list-2 flex">
+					<div class="icon-bg txtc"><i class="left iconfont icon-cangku"></i></div>
+					<div class="flex-item">
+						<h4>数据分析</h4>
+						<p>能够随时随地查看经营数据，全程无忧掌控</p>
+					</div>
+				</div>
+				<div class="explain-list-2 flex">
+					<div class="icon-bg txtc"><i class="left iconfont icon-dingdan"></i></div>
+					<div class="flex-item">
+						<h4>客服</h4>
+						<p>处理客户投诉、协调送货安装时间、损坏理赔</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="list">
+		<div class="main-list-1 txtc">
+			<div class="title" style="width: 30%;">送装一体服务</div>
+			<h4>送装师傅手机接单、就近派单、送装一体，实时联动</h4>
+			<div class="pic-bg clearfix">
+				<div class="square fr">
+					<p>送装师傅通过APP接收云驼平台的派单，根据平台预约时间来安排送装进程。通过操作APP反馈订单安装完成，方便各方了解最新进度     安装师傅可以通过APP查询自己的收入、订单情况、订单整改、客户投诉等多方面信息</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>

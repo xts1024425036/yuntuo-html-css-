@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<script src=""></script>	
+	<style type="text/css">
+		.nav-bar{
+			border-bottom: none;
+			box-shadow:none;
+		}
+		.order-status{
+			background:linear-gradient(110deg,#6234E8,#34C4E8);
+			margin-top: 0.88rem;
+			width: 100%;
+			height: 1.4rem;
+			color: #FFFFFF;
+			
+		}
+		.order-status-headphoto{
+			padding:0 0 0 0.9rem;
+			line-height: 1.4rem;
+			position: relative;
+		}
+		.order-status-headphoto .order-text{
+			font-size: 0.32rem;
+			margin-left: 0.3rem;
+			font-weight: bold;
+		}
+		.icon-dingdanzhuangtai-daijiedan{
+			font-size: .44rem;
+		}
+		.order-status-headphoto img{
+			position: absolute;
+			bottom: 0;right: 0.4rem;
+		}
+		.progress{
+			width: 100%;
+			height: 1.2rem;
+			background: #ffffff;
+			padding:0 0.3rem;
+			
+		}
+		.cell-list .cell{padding: 1.2em 0;font-size: 0.24rem;
+			color:#999;}
+		.cell .icon-bg{
+			width:.6rem;
+			height:.6rem;
+			background:#FFE3D9;
+			border-radius:50%;
+			text-align: center;
+			line-height: .6rem;
+			margin-right: .3rem;
+		}
+		.cell .flex-item{
+			font-size: 0.28rem;
+			color:#333333;
+		}
+		.cell .icon-jinru{margin-left:.2rem;}
+		.icon-huoche{
+			font-size: .38rem;
+			color: #EF511A;
+		}
+		.date{
+			font-size: .24rem;color:#666666;
+			
+		}
+		.info{margin-top: 1.4rem;}
+		.item-info{
+			line-height: 1.3em;padding: 0.1rem 0 0 0;margin-bottom: 0;
+		}
+		.main{
+			width: 100%;
+			margin-top: 0.2rem;
+		}
+		.main-list{
+			background: #ffffff;
+			padding: 0.3rem 0;
+		}
+		.bg-shadow{
+			margin: auto;
+		}
+		
+		.list-all{
+			padding: 0.3rem;
+		}
+		.list-text{
+			line-height: 1.8em;
+			font-size: 0.24rem;
+			color:#666666;
+
+		}
+		
+		.list-text .name{
+			font-size: 0.28rem;
+			color:#333333;
+			font-weight: 500;
+		}
+		.list-text .color{
+			font-size: 0.24rem;
+			color:#333333;
+			margin-left: 0.6rem;
+		}
+		.list-text .fr{
+			font-size: 0.28rem;
+			color:#999999;
+		}
+		.list-text .separate{
+			margin: 0.2rem 0;
+		}
+		.main-list .add{
+			height: 0.9rem;
+			line-height: 0.9rem;
+		}
+		.all-number{
+			margin: 0.1rem 0.3rem;
+			font-size: 0.28rem;
+			color: #333333;
+		}
+		.all-number span{
+			font-size: 0.36rem;
+			font-weight: bold;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<ul class="nav-bar flex">
+		<li class="left txtl">
+		   <i class="iconfont icon-fanhui"></i>
+	    </li>
+        <li class="flex-item txtc">订单详情</li>
+        <li class="right txtr"></li>   
+    </ul>
+	<div class="order-status">
+		<div class="order-status-headphoto flex">
+			<i class="iconfont icon-dingdanzhuangtai-daijiedan"></i>
+			<span class="order-text flex-item">未派单</span>
+			<span><img src="images/camel.png"></span>
+		</div>
+		<div class="progress">
+			<div class="cell-list">
+				<a class="cell flex">
+					<div class="icon-bg"><i class="iconfont icon-huoche"></i></div>
+					<span class="flex-item">测试</span>01-02 23:34
+					<i class="iconfont icon-jinru"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="info">
+		<ul class="item-info">
+			<li class="left">客户地址:</li>
+			<li class="flex-item right">轨道交通一号线古田二路门牌</li>
+
+			<li class="left">客户地址:</li>
+			<li class="flex-item right">王可可</li>
+
+			<li class="left">客户电话:</li>
+			<li class="flex-item right">15843993712</li>
+
+			<li class="left">预送日期:</li>
+			<li class="flex-item right">2018-12-17 12:00:00</li>
+				
+			<li class="left">提货地址:</li>
+			<li class="flex-item right">武汉市硚口区xxx路xxxxxx小区7栋2单元三楼 301室 </li>     
+		</ul>
+	</div>	
+	
+	<div class="main">
+		<div class="main-list">
+			<div class="bg-shadow">
+				<div class="list-all">
+					<ul class="list-text">
+						<li class="name">沙发_实木<span class="color">仿木色</span></li>
+						<li class="type">规格：<span>3600*1200</span></li>
+						<li class="namber clearfix">货号：<span>62-HUOXCS212-1</span><span class="fr">x1</span></li>
+						<li class="separate"></li>
+
+						<li class="name">沙发_实木<span class="color">仿木色</span></li>
+						<li class="type">规格：<span>3600*1200</span></li>
+						<li class="namber clearfix">货号：<span>62-HUOXCS212-1</span><span class="fr">x1</span></li>
+						<li class="separate"></li>
+
+						<li class="name">沙发_实木<span class="color">仿木色</span></li>
+						<li class="type">规格：<span>3600*1200</span></li>
+						<li class="namber clearfix">货号：<span>62-HUOXCS212-1</span><span class="fr">x1</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="add txtr">
+				<div class="all-number txtc" style="display:inline-block;">总数：
+					<span style="color:#5478C4">3</span>&nbsp;件
+				</div>
+				<div class="all-number txtr" style="display:inline-block;">总送装费：
+					<span style="color:#DF2F2F">￥312</span>
+				</div>
+			</div>
+		</div>	
+	</div>
+		
+		
+	
+</body>
+</html>

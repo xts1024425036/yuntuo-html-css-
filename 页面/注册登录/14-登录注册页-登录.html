@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<script src=""></script>	
+	<style type="text/css">
+		body{
+			background-color: #ffffff;
+			background-image: url(images/log-in-bg.png);
+			background-repeat: no-repeat;
+			width: 100%;
+			background-size:100% 100%;
+		}
+		.main-logo{
+			margin: 1.8rem 0 0.8rem 0;;
+		}
+		.footer-bar{
+			background: transparent;
+			border-top: none;
+		}
+		.version{
+			font-size: .22rem;
+			color:#FFFFFF;
+			text-align: center;
+			opacity: .6;
+		}
+		.cell-list{
+			padding: 0 0.8rem;
+			position: relative;
+			color: #FFFFFF;
+		}
+		.cell-list .cell{
+			color: #FFFFFF;
+			font-size: .28rem;
+			padding:0;
+			border:none;
+			margin-bottom: 0.6rem;
+		}
+		
+		.cell-list .cell+.cell{
+			border-top: none;
+		}
+		.cell-list .cell i.left{
+			color:#FFFFFF;text-align:left;
+		}
+		.cell-list .cell input{
+			color:#fff;
+			font-size: .32rem;
+		    flex: 1;
+			background:transparent;
+			border-bottom: .01rem solid #F0F0F0;
+			padding: .1rem;
+			border-radius:0;
+			margin-left: .14rem;
+		}
+		.cell-list .cell input::-webkit-input-placeholder{
+			color: #fff;
+			font-size: .28rem;
+			opacity: .6;
+		}
+		
+		
+		.security-code{
+			color: inherit;
+			width: 6em;
+			height:.6rem;
+			background:#4373BB;
+			border-radius:.1rem;
+			line-height: .6rem;
+			font-size: .22rem;
+			position: absolute;
+			bottom: .14rem;
+			right: .8rem;
+		}
+		.explain{
+			font-size: .22rem;
+			color: #FFFFFF;
+			margin-top: -0.3rem;
+			padding: 0 .8rem;
+		}
+		.explain span{
+			color: #65A3FF;font-weight: bold;
+		}
+		.txtc-btn{
+		
+		}
+		.log-btn{
+			width:5.4rem;
+			height:.8rem;
+			background:#2C4975;
+			border-radius:.4rem;
+			line-height: .8rem;
+			color: #FFFFFF;
+			font-size: .32rem;
+			letter-spacing: .2rem;
+			margin:1rem auto 0.3rem auto;
+		}
+		.log-btn2{
+			width:5.4rem;
+			height:.8rem;
+			border:.02rem solid #ffffff;
+			border-radius:.4rem;
+			line-height: .8rem;
+			color: #FFFFFF;
+			font-size: .32rem;
+			letter-spacing: .2rem;
+			margin:0.6rem auto;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="txtc">
+		<div class="main-logo">
+			<img src="images/log-in-logo.png">
+		</div>
+		<div class="cell-list">
+			<a class="cell">
+				<i class="left iconfont icon-iLinkapp-"></i>
+				<input placeholder="手机号" class="cell-text txtl">
+			</a>
+			<a class="cell">
+				<i class="left iconfont icon-yanzhengma"></i>
+				<input placeholder="验证码" class="cell-text txtl">
+			</a>
+			<div class="security-code">发送验证码</div>	
+		</div>
+		<div class="explain txtr">点击登录，即表示已阅读并同意<span>《隐私政策》</span></div>
+		<div class="txtc-btn txtc">
+			<div class="log-btn">登录</div>
+			<div class="log-btn2">注册</div>
+		</div>
+		<div class="footer-bar">
+			<div class="version txtc">Copyright © 2019 YUNTUO</div>
+		</div>
+	</div>
+</body>
+</html>

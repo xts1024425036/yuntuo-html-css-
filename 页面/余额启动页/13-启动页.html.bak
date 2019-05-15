@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<script src=""></script>	
+	<style type="text/css">
+		body{
+			background-color: #ffffff;
+			background-image: url( images/loading_page/bg.png);
+			background-repeat: no-repeat;
+			width: 100%;
+			background-size:100% 100%;
+		}
+		.main-logo{
+			margin: 2.2rem 0 1.6rem 0;;
+		}
+		.footer-bar{
+			background: transparent;
+			border-top: none;
+		}
+		.version{
+			font-size: .22rem;
+			color:#FFFFFF;
+			text-align: center;
+		}
+		
+
+	</style>
+</head>
+
+<body>
+	<div class="txtc">
+		<div class="main-logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="main-slogan">
+			<img src="images/slogan.png">
+		</div>
+		<div class="footer-bar">
+			<div class="version txtc">Copyright © 2019 YUNTUO</div>
+		</div>
+	</div>
+</body>
+</html>

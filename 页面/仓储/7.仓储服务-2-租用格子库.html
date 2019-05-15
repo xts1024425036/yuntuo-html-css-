@@ -1,0 +1,195 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<script src=""></script>	
+	<style type="text/css">
+		body{background: #ffffff;}
+		.content-banner{
+			background:#f0f0f0;
+			margin-top: 0.88rem;
+			width: 100%;	
+			position: relative;
+		}
+		.bg-shadow{
+			margin-top: 1.18rem;
+			
+		}
+		.goods-info{
+			width: 100%;
+		}
+		.shadow-title{
+			width:92%;
+		}
+		.goods-info-title-text{
+			font-size: 0.32rem;
+			width: 100%;
+		}
+		.rent-btn,.day-btn{
+			width: 100%;
+			flex-wrap: wrap;
+			
+		}
+		.shadow-title a{
+			height: 0.54rem;
+			border-radius: .27rem;
+			line-height: 0.54rem;
+			background: #f0f0f0;
+			font-size: 0.28rem;
+			color:#333333;
+			margin: 0.3rem 3% 0 0;
+			width: 22%;
+		}
+		
+		.rent-btn a.select{
+			background: #5478C4;
+			color: #FFFFFF;
+			font-weight: bold;
+		}
+		.day-btn a.select{
+			background: #DAE6FF;
+			color: #5478C4;
+			font-weight: bold;
+		}
+	
+		.replenish .left{
+			width: 36%;
+			color: #333333;
+		}
+		.replenish .right{
+			width: 54%;
+			font-size: 0.28rem
+		}
+		.replenish-2{
+			line-height: 1.4em;
+			color:#666666;
+			font-size: 0.28rem;
+			margin-top: 0.2rem;
+		}
+		.replenish-2 > li{
+			padding: 0.4em 0;
+			vertical-align: text-top;
+		}
+		.replenish-2 .left-2{
+			display: inline-block;
+			width: 40%;
+		}
+		.replenish-2 .right-2{
+			display: inline-block;
+			width: 20%;
+			font-size: 0.28rem
+		}
+		
+		.replenish-2 .right-2 span{
+			color:#333333;
+			font-weight: bold;
+			margin-right: 0.3em;
+		}
+		
+		.footer-btr{
+			margin: 0 0.4rem;
+			font-size: 0.28rem;
+			color: #333333;
+			line-height: 1rem;
+		}
+		
+		.footer-btr span{
+			font-size: 0.36rem;
+			font-weight: bold;
+			margin: 0 0.4em;
+		}
+	
+		.info-r{
+			margin-left: 4.5rem;
+			font-size: .24rem;
+			color:#666666;
+		}
+		.info-extra{
+			padding-bottom: 1rem;
+		}
+	</style>
+</head>
+
+<body>
+	 <ul class="nav-bar flex">
+		 <li class="left txtl">
+			 <i class="iconfont icon-fanhui"></i>
+		 </li>
+         <li class="flex-item txtc">租用格子库</li>
+         <li class="right txtr"></li>   
+     </ul>
+	
+	<div class="bg-shadow">
+		<div class="goods-info">
+			<div class="shadow-title">
+				<div class="goods-info-title-text">按月租</div>
+				<div class="rent-btn flex txtc">
+					<a href="#">1个月</a>
+					<a href="#" pid="not-choose">2个月</a>
+					<a href="#" pid="not-choose">3个月</a>
+					<a href="#" pid="not-choose">4个月</a>
+					<a href="#" pid="not-choose">5个月</a>
+					<a href="#" pid="not-choose">6个月</a>
+					<a href="#" pid="not-choose">7个月</a>	
+					<a href="#" pid="not-choose">8个月</a>
+					<a href="#" pid="not-choose">9个月</a>
+					<a href="#" pid="not-choose">10个月</a>
+					<a href="#" pid="not-choose">11个月</a>
+					<a href="#" pid="not-choose">12个月</a>	
+				</div>
+			</div>
+			<div class="separate" style="margin:0.3rem 0 0.3rem -0.3rem;"></div>
+			<div class="shadow-title">
+				<div class="goods-info-title-text">按天租</div>
+				<div class="rent-btn flex txtc">
+					<a href="#" class="select" pid="is-choose">一周</a>
+					<a href="#" pid="not-choose">二周</a>
+					<a href="#" pid="not-choose">三周</a>
+					<a href="#" pid="not-choose">四周</a>
+					<div class="separate" style="margin: 0.3rem 0 0 0;"></div>
+				</div>	
+				<div class="day-btn flex txtc">
+					<a href="#" pid="not-choose">1天</a>
+					<a href="#" pid="not-choose">2天</a>
+					<a href="#" pid="not-choose">3天</a>	
+					<a href="#" pid="not-choose">4天</a>
+					<a href="#" pid="not-choose">5天</a>
+					<a href="#" pid="not-choose">6天</a>
+					<a href="#" class="select" pid="is-choose">7天</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="bg-shadow" style="margin-top: 0.3rem;">
+		<div class="goods-info">
+			<div class="shadow-title">
+				<div class="goods-info-title-text">格子库数量</div>
+				<ul class="replenish">
+					<li class="left">数量</li>
+					<li class="fr flex-item right"><input class="prompt" type="text" placeholder="请输入所需数量">格</li>
+				</ul>
+				<ul class="replenish-2">
+					<li class="left-2">面积（10平米/格）</li>
+					<li class="fr flex-item right-2"><span>100</span>平米</li>
+					<li class="left-2">价格（25元/平米）</li>
+					<li class="fr flex-item right-2" style="color:#df2f2f;font-weight: bold;">￥250.00</li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="footer-bar flex">
+		<div class="footer-btr txtl">合计：&nbsp;
+				<span class="footer-btr-num">7</span>&nbsp;天
+				<span class="footer-btr-num">10</span>&nbsp;格
+				<span style="color: #df2f2f;margin-left: 0.4rem;">￥250</span>
+			</div>
+		<div class="center txtr" style="position: absolute;right: 0;bottom: 0.6em;float: right;font-weight: bold;">去支付</div>
+	</div>
+	
+</body>
+</html>
